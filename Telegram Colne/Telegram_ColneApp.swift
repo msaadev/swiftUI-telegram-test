@@ -13,5 +13,6 @@ struct Telegram_ColneApp: App {
         WindowGroup {
             ContentView()
         }
+        .windowStyle(HiddenTitleBarWindowStyle())
     }
 }

@@ -11,6 +11,14 @@
 		88BDFFD72A5D5D9700F7A51D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BDFFD62A5D5D9700F7A51D /* ContentView.swift */; };
 		88BDFFD92A5D5D9700F7A51D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88BDFFD82A5D5D9700F7A51D /* Assets.xcassets */; };
 		88BDFFDC2A5D5D9700F7A51D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88BDFFDB2A5D5D9700F7A51D /* Preview Assets.xcassets */; };
+		88BDFFE72A5D70CE00F7A51D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BDFFE62A5D70CE00F7A51D /* Home.swift */; };
+		88BDFFE92A5D70E900F7A51D /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BDFFE82A5D70E900F7A51D /* TabButton.swift */; };
+		88BDFFEB2A5D727A00F7A51D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BDFFEA2A5D727A00F7A51D /* HomeViewModel.swift */; };
+		88BDFFED2A5D748A00F7A51D /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BDFFEC2A5D748A00F7A51D /* BlurView.swift */; };
+		88BDFFEF2A5D775F00F7A51D /* AllChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BDFFEE2A5D775F00F7A51D /* AllChatsView.swift */; };
+		88BDFFF12A5D77E100F7A51D /* RecentMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BDFFF02A5D77E100F7A51D /* RecentMessage.swift */; };
+		88BDFFF32A5D7A6F00F7A51D /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BDFFF22A5D7A6F00F7A51D /* Message.swift */; };
+		88BDFFF52A5D84E500F7A51D /* RecentCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BDFFF42A5D84E500F7A51D /* RecentCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +28,14 @@
 		88BDFFD82A5D5D9700F7A51D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88BDFFDB2A5D5D9700F7A51D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		88BDFFDD2A5D5D9700F7A51D /* Telegram_Colne.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Telegram_Colne.entitlements; sourceTree = "<group>"; };
+		88BDFFE62A5D70CE00F7A51D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		88BDFFE82A5D70E900F7A51D /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		88BDFFEA2A5D727A00F7A51D /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		88BDFFEC2A5D748A00F7A51D /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		88BDFFEE2A5D775F00F7A51D /* AllChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllChatsView.swift; sourceTree = "<group>"; };
+		88BDFFF02A5D77E100F7A51D /* RecentMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentMessage.swift; sourceTree = "<group>"; };
+		88BDFFF22A5D7A6F00F7A51D /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		88BDFFF42A5D84E500F7A51D /* RecentCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +68,9 @@
 		88BDFFD32A5D5D9700F7A51D /* Telegram Colne */ = {
 			isa = PBXGroup;
 			children = (
+				88BDFFE52A5D70AC00F7A51D /* View */,
+				88BDFFE42A5D70A500F7A51D /* Model */,
+				88BDFFE32A5D709C00F7A51D /* ViewModel */,
 				88BDFFD42A5D5D9700F7A51D /* Telegram_ColneApp.swift */,
 				88BDFFD62A5D5D9700F7A51D /* ContentView.swift */,
 				88BDFFD82A5D5D9700F7A51D /* Assets.xcassets */,
@@ -67,6 +86,35 @@
 				88BDFFDB2A5D5D9700F7A51D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		88BDFFE32A5D709C00F7A51D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				88BDFFEA2A5D727A00F7A51D /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		88BDFFE42A5D70A500F7A51D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				88BDFFF02A5D77E100F7A51D /* RecentMessage.swift */,
+				88BDFFF22A5D7A6F00F7A51D /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88BDFFE52A5D70AC00F7A51D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				88BDFFE62A5D70CE00F7A51D /* Home.swift */,
+				88BDFFE82A5D70E900F7A51D /* TabButton.swift */,
+				88BDFFEC2A5D748A00F7A51D /* BlurView.swift */,
+				88BDFFEE2A5D775F00F7A51D /* AllChatsView.swift */,
+				88BDFFF42A5D84E500F7A51D /* RecentCardView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +187,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88BDFFEF2A5D775F00F7A51D /* AllChatsView.swift in Sources */,
 				88BDFFD72A5D5D9700F7A51D /* ContentView.swift in Sources */,
+				88BDFFE92A5D70E900F7A51D /* TabButton.swift in Sources */,
+				88BDFFF32A5D7A6F00F7A51D /* Message.swift in Sources */,
+				88BDFFE72A5D70CE00F7A51D /* Home.swift in Sources */,
+				88BDFFF12A5D77E100F7A51D /* RecentMessage.swift in Sources */,
+				88BDFFEB2A5D727A00F7A51D /* HomeViewModel.swift in Sources */,
+				88BDFFF52A5D84E500F7A51D /* RecentCardView.swift in Sources */,
 				88BDFFD52A5D5D9700F7A51D /* Telegram_ColneApp.swift in Sources */,
+				88BDFFED2A5D748A00F7A51D /* BlurView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +330,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Telegram Clone";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,6 +358,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Telegram Clone";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
